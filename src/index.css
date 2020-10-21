@@ -218,3 +218,11 @@ body {
   font-size: 18px;
   font-weight: 600;
 }
+
+.blogcontainer {
+  margin-top: 40px;
+}
+
+.blogsrow {
+  margin-top: 30px;
+}
