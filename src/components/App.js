@@ -51,6 +51,15 @@ class App extends Component {
     });
   };
 
+  homeHandler = () => {
+    this.setState({
+      home: true,
+      know: false,
+      mood: false,
+      blogs: false,
+    });
+  };
+
   render() {
     return (
       <React.Fragment>
@@ -110,7 +119,7 @@ class App extends Component {
                   variant="secondary"
                   id="dropdown-basic"
                   className="btn-edit"
-                  onClick={this.blogHandler}
+                  onClick={this.homeHandler}
                 >
                   Exam Fear & Phobia
                 </Dropdown.Toggle>
@@ -153,6 +162,7 @@ class App extends Component {
                   variant="secondary"
                   id="dropdown-basic"
                   className="btn-edit"
+                  onClick={this.blogHandler}
                 >
                   Blog & Articles
                 </Dropdown.Toggle>
