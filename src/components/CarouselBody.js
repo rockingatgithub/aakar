@@ -16,6 +16,7 @@ function CarouselBody(props) {
             <div id="carousel-text-3">Speak to our medical experts now!</div>
             <button id="call-button">
               <img
+                alt="my-header"
                 src="https://img.techpowerup.org/200829/c-copy-2.png"
                 style={{ height: "40px", width: "50px" }}
               />
@@ -27,6 +28,7 @@ function CarouselBody(props) {
         <Col lg={4} md={6} sm={6}>
           <div id="full-image-1">
             <img
+              alt="my-header"
               id="first-figure"
               src="https://img.techpowerup.org/200829/istockphoto-1135325949-612x612-1.png"
               style={{

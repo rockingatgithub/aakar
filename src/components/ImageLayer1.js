@@ -13,6 +13,7 @@ function ImageLayer1(props) {
       <Row noGutters>
         <Col>
           <img
+            alt="my-homeimage"
             src={img1}
             style={{
               height: "400px",
@@ -25,6 +26,7 @@ function ImageLayer1(props) {
         </Col>
         <Col>
           <img
+            alt="my-homeimage"
             src={img2}
             style={{
               height: "400px",
@@ -37,6 +39,7 @@ function ImageLayer1(props) {
         </Col>
         <Col>
           <img
+            alt="my-homeimage"
             src={img3}
             style={{
               height: "400px",
@@ -51,6 +54,7 @@ function ImageLayer1(props) {
       <Row>
         <Col>
           <img
+            alt="my-homeimage"
             src={img4}
             style={{
               height: "400px",
@@ -63,6 +67,7 @@ function ImageLayer1(props) {
         </Col>
         <Col>
           <img
+            alt="my-homeimage"
             src={img5}
             style={{
               height: "400px",
@@ -75,6 +80,7 @@ function ImageLayer1(props) {
         </Col>
         <Col>
           <img
+            alt="my-homeimage"
             src={img6}
             style={{
               height: "400px",

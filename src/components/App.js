@@ -7,11 +7,15 @@ import CarouselBody from "./CarouselBody";
 import ImageLayer1 from "./ImageLayer1";
 import VideoLayer from "./VideoLayer";
 import Specialist from "./Specialist";
+import BottomBlocks from "./BottomBlocks";
+import LastRow from "./LastRow";
+import KnowYourself from "./KnowYourself";
+import MoodBoosters from "./MoodBoosters";
 
 class App extends Component {
   render() {
     return (
-      <div>
+      <React.Fragment>
         <NavbarOne />
         <NavbarTwo />
         <NavbarThree />
@@ -20,7 +24,11 @@ class App extends Component {
         <ImageLayer1 />
         <VideoLayer />
         <Specialist />
-      </div>
+        <BottomBlocks />
+        <LastRow />
+        <KnowYourself />
+        <MoodBoosters />
+      </React.Fragment>
     );
   }
 }

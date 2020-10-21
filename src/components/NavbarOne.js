@@ -14,6 +14,7 @@ function NavbarOne(props) {
         <Col xs={5} md={2} id="call-text">
           <span className="navbar-1-text">
             <img
+              alt="my-headers"
               src="https://img.techpowerup.org/200826/c-copy-1.png"
               style={{ height: "40px", width: "50px" }}
             />

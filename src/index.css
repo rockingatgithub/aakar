@@ -156,3 +156,65 @@ body {
   border-radius: 30px;
   font-size: 1.2rem;
 }
+
+.bottomblocks {
+  margin-top: 20px;
+}
+
+#lastquote {
+  text-align: center;
+  color: white;
+  display: inline-block;
+}
+
+.lastrow {
+  background-color: #494848;
+  margin-top: 40px;
+  color: white;
+  min-height: 200px;
+  padding-top: 36px;
+}
+
+.mylastlist {
+  list-style: none;
+}
+
+.blockrow {
+  margin-top: 20px;
+}
+
+#knowimagecol {
+  padding: 0 !important;
+}
+
+.buttonsrow {
+  margin-top: 40px;
+}
+
+.vertical-button {
+  margin-top: 20px;
+  width: 300px;
+  background: #807cff;
+  height: 52px;
+  border: none;
+  font-weight: 600;
+  border-radius: 20px;
+  font-size: 20px;
+}
+
+#button-group {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.hoverimage {
+  height: 420px;
+  width: 80%;
+}
+
+.hoverimagecaption {
+  text-align: center;
+  font-size: 18px;
+  font-weight: 600;
+}
