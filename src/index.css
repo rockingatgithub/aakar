@@ -226,3 +226,83 @@ body {
 .blogsrow {
   margin-top: 30px;
 }
+
+/* ==================================== level 1 screening styles ============================================== */
+
+.upper-row {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.questionslist-heading {
+  margin-top: 20px;
+}
+
+.only-line {
+  border-bottom: 2px solid #807CFF;
+  width: 100%;
+  margin: 16px 0px;
+}
+
+.question-box {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  line-height: 2;
+}
+
+.button-group {
+  display: flex;
+  justify-content: space-between;
+  width: 220px;
+}
+
+.answer-button{
+  border: 2px solid #807CFF;
+  width: 100px;
+  background: transparent;
+  border-radius: 14px;
+  height: 32px;
+  line-height: 1;
+}
+
+.answer-no-button {
+  margin-left: 24px;
+}
+
+
+.question-list-item {
+  border: none !important;
+  border-bottom: 2px solid #807CFF !important;
+  background: transparent !important;
+}
+
+.total-row {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+.dark-text {
+  font-size: 20px;
+  padding: 5px;
+}
+
+.no-design-btn{
+  border: none;
+  background: transparent;
+}
+
+.next-button {
+  border: none;
+  background: #807CFF;
+  width: 118px;
+  border-radius: 20px;
+  height: 40px;
+  margin-left: 20px;
+}
+
+.screening-level-1 {
+  background-color: #DFDEFF;
+}

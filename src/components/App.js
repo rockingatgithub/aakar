@@ -12,6 +12,7 @@ import LastRow from "./LastRow";
 import KnowYourself from "./KnowYourself";
 import MoodBoosters from "./MoodBoosters";
 import Blogs from "./Blogs";
+import Questionnaire from "./Questionnaire";
 
 class App extends Component {
   constructor(props) {
@@ -192,10 +193,13 @@ class App extends Component {
             <BottomBlocks />
           </React.Fragment>
         )}
-        {this.state.know && <KnowYourself />}
+        {/* {this.state.know && <KnowYourself />} */}
+        {this.state.know && <Questionnaire/>}
         {this.state.mood && <MoodBoosters />}
         {this.state.blogs && <Blogs />}
+        
         <LastRow />
+
       </React.Fragment>
     );
   }
