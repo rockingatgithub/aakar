@@ -303,6 +303,14 @@ body {
   margin-left: 20px;
 }
 
-.screening-level-1 {
+.screening-level-color {
   background-color: #DFDEFF;
+}
+
+.head-text{
+  margin-top: 20px;
+}
+
+.no-border{
+  border:0 !important;
 }
