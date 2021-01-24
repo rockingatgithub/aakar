@@ -17,6 +17,7 @@ import Questionnaire2 from './Questionnaire2'
 import Questionnaire3 from './Questionnaire3'
 import Questionnaire4 from './Questionnaire4'
 import Questionnaire5 from './Questionnaire5'
+import MoodTracker from './MoodTracker'
 
 class App extends Component {
     constructor(props) {
@@ -261,6 +262,7 @@ class App extends Component {
                         <CarouselBody />
                         <ImageLayer1 />
                         <VideoLayer />
+                        <MoodTracker/>
                         <Specialist />
                         <BottomBlocks />
                     </React.Fragment>
