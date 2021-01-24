@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "4c91b5c68e266bf4bf1661e9a64bede8",
+    "revision": "14ffaf265a0109cfa4a30f4ddc4a7599",
     "url": "/aakar/index.html"
   },
   {
-    "revision": "bd86dd709d2ce2b9aac7",
+    "revision": "b4e214c8551be71e2fe7",
     "url": "/aakar/static/css/2.437d98bc.chunk.css"
   },
   {
-    "revision": "40eecdf0b139d698aea1",
-    "url": "/aakar/static/css/main.faa3fde7.chunk.css"
+    "revision": "dbd43dc640a3ed3109d6",
+    "url": "/aakar/static/css/main.75013414.chunk.css"
   },
   {
-    "revision": "bd86dd709d2ce2b9aac7",
-    "url": "/aakar/static/js/2.df60e7af.chunk.js"
+    "revision": "b4e214c8551be71e2fe7",
+    "url": "/aakar/static/js/2.4b6bcd45.chunk.js"
   },
   {
     "revision": "8a137f586fcebb1a370343eb47b7677c",
-    "url": "/aakar/static/js/2.df60e7af.chunk.js.LICENSE.txt"
+    "url": "/aakar/static/js/2.4b6bcd45.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "40eecdf0b139d698aea1",
-    "url": "/aakar/static/js/main.3044a579.chunk.js"
+    "revision": "dbd43dc640a3ed3109d6",
+    "url": "/aakar/static/js/main.e19c1068.chunk.js"
   },
   {
     "revision": "a4aee14b69d8019d0969",
@@ -50,6 +50,18 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "d744e034bf3b91c423e5fe4c60c1343d",
     "url": "/aakar/static/media/Rectangle_16.d744e034.png"
+  },
+  {
+    "revision": "e3b722ede32486cfb8a7b71d1d1d339d",
+    "url": "/aakar/static/media/extremlyhappy.e3b722ed.png"
+  },
+  {
+    "revision": "ca4f3aa77cc82e1281637e8e9853a8c9",
+    "url": "/aakar/static/media/frowbface.ca4f3aa7.png"
+  },
+  {
+    "revision": "d39c2f4cc2d55ae6e55ac7c3b041f268",
+    "url": "/aakar/static/media/happy.d39c2f4c.png"
   },
   {
     "revision": "d147ee4911685ca164a16eb5097e0d45",
@@ -104,7 +116,19 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/aakar/static/media/moodbooster4.591333f5.png"
   },
   {
+    "revision": "fa023c02338c189de2452145ffc519af",
+    "url": "/aakar/static/media/sad.fa023c02.png"
+  },
+  {
     "revision": "cc83d82c0daf0235defece32e68c218f",
     "url": "/aakar/static/media/selfcare.cc83d82c.png"
+  },
+  {
+    "revision": "e68120f3f434c0fb8358175cd94343f5",
+    "url": "/aakar/static/media/straight.e68120f3.png"
+  },
+  {
+    "revision": "46a9615ac533beea936926bf7630d294",
+    "url": "/aakar/static/media/waterhead.46a9615a.png"
   }
 ]);

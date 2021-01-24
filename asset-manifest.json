@@ -1,25 +1,28 @@
 {
   "files": {
-    "main.css": "/aakar/static/css/main.faa3fde7.chunk.css",
-    "main.js": "/aakar/static/js/main.3044a579.chunk.js",
-    "main.js.map": "/aakar/static/js/main.3044a579.chunk.js.map",
+    "main.css": "/aakar/static/css/main.75013414.chunk.css",
+    "main.js": "/aakar/static/js/main.e19c1068.chunk.js",
+    "main.js.map": "/aakar/static/js/main.e19c1068.chunk.js.map",
     "runtime-main.js": "/aakar/static/js/runtime-main.3036bde6.js",
     "runtime-main.js.map": "/aakar/static/js/runtime-main.3036bde6.js.map",
     "static/css/2.437d98bc.chunk.css": "/aakar/static/css/2.437d98bc.chunk.css",
-    "static/js/2.df60e7af.chunk.js": "/aakar/static/js/2.df60e7af.chunk.js",
-    "static/js/2.df60e7af.chunk.js.map": "/aakar/static/js/2.df60e7af.chunk.js.map",
+    "static/js/2.4b6bcd45.chunk.js": "/aakar/static/js/2.4b6bcd45.chunk.js",
+    "static/js/2.4b6bcd45.chunk.js.map": "/aakar/static/js/2.4b6bcd45.chunk.js.map",
     "index.html": "/aakar/index.html",
-    "precache-manifest.3001dabc0dcb2b0ab1cc23c531125d8a.js": "/aakar/precache-manifest.3001dabc0dcb2b0ab1cc23c531125d8a.js",
+    "precache-manifest.7f30e299d285c714251c432815c83d58.js": "/aakar/precache-manifest.7f30e299d285c714251c432815c83d58.js",
     "service-worker.js": "/aakar/service-worker.js",
     "static/css/2.437d98bc.chunk.css.map": "/aakar/static/css/2.437d98bc.chunk.css.map",
-    "static/css/main.faa3fde7.chunk.css.map": "/aakar/static/css/main.faa3fde7.chunk.css.map",
-    "static/js/2.df60e7af.chunk.js.LICENSE.txt": "/aakar/static/js/2.df60e7af.chunk.js.LICENSE.txt",
+    "static/css/main.75013414.chunk.css.map": "/aakar/static/css/main.75013414.chunk.css.map",
+    "static/js/2.4b6bcd45.chunk.js.LICENSE.txt": "/aakar/static/js/2.4b6bcd45.chunk.js.LICENSE.txt",
     "static/media/Rectangle_11.png": "/aakar/static/media/Rectangle_11.196d22a4.png",
     "static/media/Rectangle_12.png": "/aakar/static/media/Rectangle_12.d50c01ed.png",
     "static/media/Rectangle_13.png": "/aakar/static/media/Rectangle_13.e1bb6298.png",
     "static/media/Rectangle_14.png": "/aakar/static/media/Rectangle_14.c3acc570.png",
     "static/media/Rectangle_15.png": "/aakar/static/media/Rectangle_15.46f7d1bf.png",
     "static/media/Rectangle_16.png": "/aakar/static/media/Rectangle_16.d744e034.png",
+    "static/media/extremlyhappy.png": "/aakar/static/media/extremlyhappy.e3b722ed.png",
+    "static/media/frowbface.png": "/aakar/static/media/frowbface.ca4f3aa7.png",
+    "static/media/happy.png": "/aakar/static/media/happy.d39c2f4c.png",
     "static/media/knowimage2.png": "/aakar/static/media/knowimage2.d147ee49.png",
     "static/media/knowimage3.png": "/aakar/static/media/knowimage3.ef6801a8.png",
     "static/media/knowimage4.png": "/aakar/static/media/knowimage4.b2e89729.png",
@@ -33,13 +36,16 @@
     "static/media/moodbooster2.png": "/aakar/static/media/moodbooster2.8e6be5f1.png",
     "static/media/moodbooster3.png": "/aakar/static/media/moodbooster3.95541cd5.png",
     "static/media/moodbooster4.png": "/aakar/static/media/moodbooster4.591333f5.png",
-    "static/media/selfcare.png": "/aakar/static/media/selfcare.cc83d82c.png"
+    "static/media/sad.png": "/aakar/static/media/sad.fa023c02.png",
+    "static/media/selfcare.png": "/aakar/static/media/selfcare.cc83d82c.png",
+    "static/media/straight.png": "/aakar/static/media/straight.e68120f3.png",
+    "static/media/waterhead.png": "/aakar/static/media/waterhead.46a9615a.png"
   },
   "entrypoints": [
     "static/js/runtime-main.3036bde6.js",
     "static/css/2.437d98bc.chunk.css",
-    "static/js/2.df60e7af.chunk.js",
-    "static/css/main.faa3fde7.chunk.css",
-    "static/js/main.3044a579.chunk.js"
+    "static/js/2.4b6bcd45.chunk.js",
+    "static/css/main.75013414.chunk.css",
+    "static/js/main.e19c1068.chunk.js"
   ]
 }
