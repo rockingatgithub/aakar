@@ -60,6 +60,10 @@ class Questionnaire2 extends Component {
         this.props.changeScreen(4)
     }
 
+    handleChangePrev =() => {
+        this.props.changeScreen(1)
+    }
+
     render() {
         return (
             <Container className="screening-level-color" fluid>
@@ -81,12 +85,12 @@ class Questionnaire2 extends Component {
                             <div className="only-line"></div>
                             <div className="head-text">
                                 Enter your
-                                Name:_____________________________________________________
+                                Name:<input type="text" />
                             </div>
                             <div className="head-text">
-                                <span>Sex:___________ </span>{' '}
-                                <span> Age:______________ </span>{' '}
-                                <span> Date:____/____/________</span>
+                                <span>Sex:<input type="text" /> </span>
+                                <span> Age:<input type="number" /> </span>
+                                <span> Date:<input type="date" /></span>
                             </div>
                             <div className="head-text">
                                 Instructions: This questionnaire asks about
@@ -132,9 +136,15 @@ class Questionnaire2 extends Component {
                                 </span>
                             </div>
                             <div className="last-row-nav">
-                                <button className="no-design-btn">
-                                    {' '}
+                                <button className="no-design-btn" onClick={this.props.homeHandler}>
+                                    
                                     Back to Home
+                                </button>
+                                <button
+                                    className="next-button"
+                                    onClick={this.handleChangePrev}
+                                >
+                                    PREV
                                 </button>
                                 <button
                                     className="next-button"

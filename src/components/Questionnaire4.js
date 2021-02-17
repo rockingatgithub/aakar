@@ -25,6 +25,10 @@ class Questionnaire4 extends Component {
         this.props.changeScreen(5)
     }
 
+    handleChangePrev = () => {
+        this.props.changeScreen(2)
+    }
+
     render() {
         return (
             <Container className="screening-level-color" fluid>
@@ -65,8 +69,14 @@ class Questionnaire4 extends Component {
                                             </div>
                                         ) : (
                                             <div>
-                                                <div>_____in months</div>
-                                                <div>_____in years</div>
+                                                <div>
+                                                    <input type="number" />
+                                                    in months
+                                                </div>
+                                                <div>
+                                                    <input type="number" />
+                                                    in years
+                                                </div>
                                             </div>
                                         )}
                                     </div>
@@ -82,9 +92,17 @@ class Questionnaire4 extends Component {
                                 </span>
                             </div>
                             <div className="last-row-nav">
-                                <button className="no-design-btn">
-                                    {' '}
+                                <button
+                                    className="no-design-btn"
+                                    onClick={this.props.homeHandler}
+                                >
                                     Back to Home
+                                </button>
+                                <button
+                                    className="next-button"
+                                    onClick={this.handleChangePrev}
+                                >
+                                    PREV
                                 </button>
                                 <button
                                     className="next-button"

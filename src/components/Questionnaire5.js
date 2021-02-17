@@ -108,6 +108,10 @@ class Questionnaire5 extends Component {
         }
     }
 
+    handleChangePrev =() => {
+        this.props.changeScreen(4)
+    }
+
     render() {
         return (
             <Container className="screening-level-color" fluid>
@@ -173,11 +177,19 @@ class Questionnaire5 extends Component {
                                 </span>
                             </div>
                             <div className="last-row-nav">
-                                <button className="no-design-btn">
-                                    {' '}
+                                <button
+                                    className="no-design-btn"
+                                    onClick={this.props.homeHandler}
+                                >
                                     Back to Home
                                 </button>
-                                <button className="next-button">NEXT</button>
+                                <button
+                                    className="next-button"
+                                    onClick={this.handleChangePrev}
+                                >
+                                    PREV
+                                </button>
+                                <button className="next-button">SUBMIT</button>
                             </div>
                         </div>
                     </Col>

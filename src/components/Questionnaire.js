@@ -80,8 +80,8 @@ class Questionnaire extends Component {
                                 </span>
                             </div>
                             <div className="last-row-nav">
-                                <button className="no-design-btn">
-                                    {' '}
+                                <button className="no-design-btn" onClick={this.props.homeHandler}>
+                                    
                                     Back to Home
                                 </button>
                                 <button

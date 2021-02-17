@@ -41,6 +41,11 @@ class App extends Component {
             know: true,
             mood: false,
             blogs: false,
+            screen1: false,
+            screen2a: false,
+            screen2b: false,
+            screen3: false,
+            screen4: false,
         })
     }
 
@@ -50,6 +55,11 @@ class App extends Component {
             know: false,
             mood: true,
             blogs: false,
+            screen1: false,
+            screen2a: false,
+            screen2b: false,
+            screen3: false,
+            screen4: false,
         })
     }
 
@@ -59,6 +69,11 @@ class App extends Component {
             know: false,
             mood: false,
             blogs: true,
+            screen1: false,
+            screen2a: false,
+            screen2b: false,
+            screen3: false,
+            screen4: false,
         })
     }
 
@@ -68,6 +83,11 @@ class App extends Component {
             know: false,
             mood: false,
             blogs: false,
+            screen1: false,
+            screen2a: false,
+            screen2b: false,
+            screen3: false,
+            screen4: false,
         })
     }
 
@@ -126,10 +146,10 @@ class App extends Component {
 
     render() {
         return (
-            <React.Fragment>
+            <>
                 <NavbarOne />
                 <NavbarTwo />
-                <NavbarThree />
+                <NavbarThree homeHandler={this.homeHandler} />
                 <Container fluid className="my-container container-4">
                     <Row noGutters={true}>
                         <Col md={1}></Col>
@@ -143,18 +163,6 @@ class App extends Component {
                                 >
                                     Know Yourself Better
                                 </Dropdown.Toggle>
-
-                                <Dropdown.Menu>
-                                    <Dropdown.Item href="#/action-1">
-                                        Action
-                                    </Dropdown.Item>
-                                    <Dropdown.Item href="#/action-2">
-                                        Another action
-                                    </Dropdown.Item>
-                                    <Dropdown.Item href="#/action-3">
-                                        Something else
-                                    </Dropdown.Item>
-                                </Dropdown.Menu>
                             </Dropdown>
                         </Col>
                         <Col md={3}>
@@ -167,44 +175,8 @@ class App extends Component {
                                 >
                                     Mood Lifters & Boosters
                                 </Dropdown.Toggle>
-
-                                <Dropdown.Menu>
-                                    <Dropdown.Item href="#/action-1">
-                                        Action
-                                    </Dropdown.Item>
-                                    <Dropdown.Item href="#/action-2">
-                                        Another action
-                                    </Dropdown.Item>
-                                    <Dropdown.Item href="#/action-3">
-                                        Something else
-                                    </Dropdown.Item>
-                                </Dropdown.Menu>
                             </Dropdown>
                         </Col>
-                        {/* <Col md={2}>
-                            <Dropdown>
-                                <Dropdown.Toggle
-                                    variant="secondary"
-                                    id="dropdown-basic"
-                                    className="btn-edit"
-                                    onClick={this.homeHandler}
-                                >
-                                    Exam Fear & Phobia
-                                </Dropdown.Toggle>
-
-                                <Dropdown.Menu>
-                                    <Dropdown.Item href="#/action-1">
-                                        Action
-                                    </Dropdown.Item>
-                                    <Dropdown.Item href="#/action-2">
-                                        Another action
-                                    </Dropdown.Item>
-                                    <Dropdown.Item href="#/action-3">
-                                        Something else
-                                    </Dropdown.Item>
-                                </Dropdown.Menu>
-                            </Dropdown>
-                        </Col> */}
                         <Col md={3}>
                             <Dropdown>
                                 <Dropdown.Toggle
@@ -214,18 +186,6 @@ class App extends Component {
                                 >
                                     Book Your Therapist
                                 </Dropdown.Toggle>
-
-                                <Dropdown.Menu>
-                                    <Dropdown.Item href="#/action-1">
-                                        Action
-                                    </Dropdown.Item>
-                                    <Dropdown.Item href="#/action-2">
-                                        Another action
-                                    </Dropdown.Item>
-                                    <Dropdown.Item href="#/action-3">
-                                        Something else
-                                    </Dropdown.Item>
-                                </Dropdown.Menu>
                             </Dropdown>
                         </Col>
                         <Col md={2}>
@@ -238,18 +198,6 @@ class App extends Component {
                                 >
                                     Blog & Articles
                                 </Dropdown.Toggle>
-
-                                <Dropdown.Menu>
-                                    <Dropdown.Item href="#/action-1">
-                                        Action
-                                    </Dropdown.Item>
-                                    <Dropdown.Item href="#/action-2">
-                                        Another action
-                                    </Dropdown.Item>
-                                    <Dropdown.Item href="#/action-3">
-                                        Something else
-                                    </Dropdown.Item>
-                                </Dropdown.Menu>
                             </Dropdown>
                         </Col>
                         <Col md={1} style={{ alignSelf: 'center' }}>
@@ -258,38 +206,56 @@ class App extends Component {
                     </Row>
                 </Container>
                 {this.state.home && (
-                    <React.Fragment>
+                    <>
                         <CarouselBody />
                         <ImageLayer1 />
                         <VideoLayer />
-                        <MoodTracker/>
+                        <MoodTracker />
                         <Specialist />
                         <BottomBlocks />
-                    </React.Fragment>
+                    </>
                 )}
                 {this.state.know && (
-                    <KnowYourself changeScreen={this.changeScreen} />
+                    <KnowYourself
+                        changeScreen={this.changeScreen}
+                        homeHandler={this.homeHandler}
+                    />
                 )}
                 {this.state.screen1 && (
-                    <Questionnaire changeScreen={this.changeScreen} />
+                    <Questionnaire
+                        changeScreen={this.changeScreen}
+                        homeHandler={this.homeHandler}
+                    />
                 )}
                 {this.state.screen2a && (
-                    <Questionnaire2 changeScreen={this.changeScreen} />
+                    <Questionnaire2
+                        changeScreen={this.changeScreen}
+                        homeHandler={this.homeHandler}
+                    />
                 )}
                 {this.state.screen2b && (
-                    <Questionnaire3 changeScreen={this.changeScreen} />
+                    <Questionnaire3
+                        changeScreen={this.changeScreen}
+                        homeHandler={this.homeHandler}
+                    />
                 )}
                 {this.state.screen3 && (
-                    <Questionnaire4 changeScreen={this.changeScreen} />
+                    <Questionnaire4
+                        changeScreen={this.changeScreen}
+                        homeHandler={this.homeHandler}
+                    />
                 )}
                 {this.state.screen4 && (
-                    <Questionnaire5 changeScreen={this.changeScreen} />
+                    <Questionnaire5
+                        changeScreen={this.changeScreen}
+                        homeHandler={this.homeHandler}
+                    />
                 )}
                 {this.state.mood && <MoodBoosters />}
                 {this.state.blogs && <Blogs />}
 
                 <LastRow />
-            </React.Fragment>
+            </>
         )
     }
 }

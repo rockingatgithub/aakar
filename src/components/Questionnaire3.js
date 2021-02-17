@@ -78,8 +78,8 @@ class Questionnaire3 extends Component {
                                 Name:_____________________________________________________
                             </div>
                             <div className="head-text">
-                                <span>Sex:___________ </span>{' '}
-                                <span> Age:______________ </span>{' '}
+                                <span>Sex:___________ </span>
+                                <span> Age:______________ </span>
                                 <span> Date:____/____/________</span>
                             </div>
                             <div className="head-text">
@@ -150,9 +150,15 @@ class Questionnaire3 extends Component {
                                 </span>
                             </div>
                             <div className="last-row-nav">
-                                <button className="no-design-btn">
-                                    {' '}
+                                <button className="no-design-btn" onClick={this.props.homeHandler}>
+                                    
                                     Back to Home
+                                </button>
+                                <button
+                                    className="next-button"
+                                    onClick={this.handleChangePrev}
+                                >
+                                    PREV
                                 </button>
                                 <button className="next-button">NEXT</button>
                             </div>
