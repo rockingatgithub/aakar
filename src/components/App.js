@@ -1,4 +1,8 @@
 import React, { Component } from 'react'
+import withFirebaseAuth from 'react-with-firebase-auth'
+import firebase from 'firebase/app';
+import 'firebase/auth';
+import firebaseConfig from '../firebase-auth';
 import { Dropdown, Col, Row, Container } from 'react-bootstrap'
 import NavbarOne from './NavbarOne'
 import NavbarTwo from './NavbarTwo'
@@ -18,6 +22,14 @@ import Questionnaire3 from './Questionnaire3'
 import Questionnaire4 from './Questionnaire4'
 import Questionnaire5 from './Questionnaire5'
 import MoodTracker from './MoodTracker'
+
+
+const firebaseApp = firebase.initializeApp(firebaseConfig);   // initialize firebase....
+
+const firebaseAppAuth = firebaseApp.auth();
+const providers = {
+  googleProvider: new firebase.auth.GoogleAuthProvider(),
+};
 
 class App extends Component {
     constructor(props) {
@@ -145,10 +157,17 @@ class App extends Component {
     }
 
     render() {
+
+        const {
+            user,
+            signOut,
+            signInWithGoogle,
+          } = this.props;
+
         return (
             <>
                 <NavbarOne />
-                <NavbarTwo />
+                <NavbarTwo user={user} signOut={signOut} signInWithGoogle={signInWithGoogle} />
                 <NavbarThree homeHandler={this.homeHandler} />
                 <Container fluid className="my-container container-4">
                     <Row noGutters={true}>
@@ -217,6 +236,9 @@ class App extends Component {
                 )}
                 {this.state.know && (
                     <KnowYourself
+                        user={user} 
+                        signOut={signOut}
+                        signInWithGoogle={signInWithGoogle}
                         changeScreen={this.changeScreen}
                         homeHandler={this.homeHandler}
                     />
@@ -260,4 +282,7 @@ class App extends Component {
     }
 }
 
-export default App
+export default withFirebaseAuth({
+    providers,
+    firebaseAppAuth,
+  })(App);

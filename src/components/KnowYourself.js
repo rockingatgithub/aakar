@@ -2,13 +2,6 @@ import React, { Component } from 'react'
 import { Col, Container, Row } from 'react-bootstrap'
 import logo from './knowyourselflogo.png'
 import img1 from './selfcare.png'
-import img2 from './knowimage2.png'
-import img3 from './knowimage3.png'
-import img4 from './knowimage4.png'
-import img5 from './knowimage5.png'
-import img6 from './knowimage6.png'
-import img7 from './knowimage7.png'
-import img8 from './knowimage8.png'
 
 class KnowYourself extends Component {
     constructor(props) {
@@ -42,6 +35,8 @@ class KnowYourself extends Component {
     }
 
     render() {
+        const { user, signOut, signInWithGoogle } = this.props
+
         return (
             <Container fluid>
                 <Row>
@@ -55,8 +50,17 @@ class KnowYourself extends Component {
                 </Row>
                 <Row className="buttonsrow">
                     <Col lg={3}>
-                        <div className="login-text">
-                            <span>SUBSCRIBE AND LOGIN FROM HERE</span>
+                        <div
+                            className="login-text"
+                            onClick={!user && signInWithGoogle}
+                        >
+                            {user ? (
+                                <span>
+                                    HEY THERE, ENTER YOUR AGE AND CONTINUE
+                                </span>
+                            ) : (
+                                <span>SUBSCRIBE AND LOGIN FROM HERE</span>
+                            )}
                         </div>
                         {/* <div id="button-group">
                             <button
