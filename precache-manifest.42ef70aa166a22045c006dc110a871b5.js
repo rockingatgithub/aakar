@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "eb247bd4fdb81087a30ef76ccca92bde",
+    "revision": "3dd44680472dc6604b3d25633a862061",
     "url": "/aakar/index.html"
   },
   {
-    "revision": "b4e214c8551be71e2fe7",
+    "revision": "8d2044ab1d3365d40dd5",
     "url": "/aakar/static/css/2.437d98bc.chunk.css"
   },
   {
-    "revision": "fc65dc319bcd3df499ee",
+    "revision": "db43c00a48b9a6cdd5bd",
     "url": "/aakar/static/css/main.5d08805b.chunk.css"
   },
   {
-    "revision": "b4e214c8551be71e2fe7",
-    "url": "/aakar/static/js/2.4b6bcd45.chunk.js"
+    "revision": "8d2044ab1d3365d40dd5",
+    "url": "/aakar/static/js/2.e49c548c.chunk.js"
   },
   {
-    "revision": "8a137f586fcebb1a370343eb47b7677c",
-    "url": "/aakar/static/js/2.4b6bcd45.chunk.js.LICENSE.txt"
+    "revision": "b9e38afec29e55ea7924d823b9868b66",
+    "url": "/aakar/static/js/2.e49c548c.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "fc65dc319bcd3df499ee",
-    "url": "/aakar/static/js/main.438a8f41.chunk.js"
+    "revision": "db43c00a48b9a6cdd5bd",
+    "url": "/aakar/static/js/main.517b283b.chunk.js"
   },
   {
     "revision": "a4aee14b69d8019d0969",
@@ -62,34 +62,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "d39c2f4cc2d55ae6e55ac7c3b041f268",
     "url": "/aakar/static/media/happy.d39c2f4c.png"
-  },
-  {
-    "revision": "d147ee4911685ca164a16eb5097e0d45",
-    "url": "/aakar/static/media/knowimage2.d147ee49.png"
-  },
-  {
-    "revision": "ef6801a8ee7e3e9a94245f01952badf1",
-    "url": "/aakar/static/media/knowimage3.ef6801a8.png"
-  },
-  {
-    "revision": "b2e89729cf7004e93ad1b2072f360212",
-    "url": "/aakar/static/media/knowimage4.b2e89729.png"
-  },
-  {
-    "revision": "c60fb2fceccf9bf2fd73071b97147c54",
-    "url": "/aakar/static/media/knowimage5.c60fb2fc.png"
-  },
-  {
-    "revision": "4082d542f4d636b06a4ef512af8a167f",
-    "url": "/aakar/static/media/knowimage6.4082d542.png"
-  },
-  {
-    "revision": "8b3f11f5e377be96a9d0cbcb3f001f40",
-    "url": "/aakar/static/media/knowimage7.8b3f11f5.png"
-  },
-  {
-    "revision": "290696f01da386adbea3c79b70aec7c1",
-    "url": "/aakar/static/media/knowimage8.290696f0.png"
   },
   {
     "revision": "2712a77823d18366591ea5e887ec1d26",
