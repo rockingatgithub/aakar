@@ -9,9 +9,9 @@ function CarouselBody(props) {
           <div className="carousel-text-box">
             <div id="carousel-text"> Your Happiness Journey Simplified </div>
             <div id="carousel-text-2">
-              {" "}
+              
               Getting out of your Depression and Anxiety is much easier now with
-              AAKAR{" "}
+              AAKAR
             </div>
             <div id="carousel-text-3">Speak to our medical experts now!</div>
             <button id="call-button">

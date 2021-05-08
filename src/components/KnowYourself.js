@@ -8,7 +8,7 @@ class KnowYourself extends Component {
         super(props)
         this.state = {
             imageContent: '0',
-            age: 18,
+            age: '',
         }
     }
 
